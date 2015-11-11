@@ -1,0 +1,25 @@
+{
+  "name": "@agarcian/passwordhash",
+  "version": "1.0.1",
+  "description": "Salted password hashing with PBKDF2. (Adapted from http://crackstation.net/hashing-security.htm)",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -t 90",
+    "test-cov-html": "lab -r html -o coverage.html"
+  },
+  "keywords": [
+    "password",
+    "hash"
+  ],
+  "author": "Andres Garcia <agarcian@ieee.org>",
+  "license": "ISC",
+  "devDependencies": {
+    "code": "^2.0.1",
+    "lab": "^7.2.0"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "buffer-equal-constant-time": "^1.0.1",
+    "crypto": "0.0.3"
+  }
+}
