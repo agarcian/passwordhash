@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "Salted password hashing with PBKDF2. (Adapted from http://crackstation.net/hashing-security.htm)",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agarcian/passwordhash.git"
+  },
   "scripts": {
     "test": "lab -t 90",
     "test-cov-html": "lab -r html -o coverage.html"

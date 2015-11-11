@@ -1,4 +1,4 @@
-Number Formatter
+Password Hash
 =========
 
 A node.js module to hash passwords based on this article: https://crackstation.net/hashing-security.htm
@@ -11,10 +11,10 @@ A node.js module to hash passwords based on this article: https://crackstation.n
 
     
     var passwordhash = require('@agarcian/passwordhash');
-
-    var pwd = 'my password';
-    var hash = passwordhash.createHash(pwd, function(err, hash){
-        passwordhash.validatePassword(pwd, hash, function(err, success){
+    
+    var pwd  = 'my password';
+    var hash = passwordhash.createHash(pwd, function(err, hash) {
+        passwordhash.validatePassword(pwd, hash, function(err, success) {
             console.log('The password hash was validated successfully:' + success ? 'yes' : 'no');
         });
     });
