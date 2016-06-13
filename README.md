@@ -2,6 +2,7 @@ Password Hash
 =========
 
 ![Alt text](https://travis-ci.org/agarcian/passwordhash.svg?branch=master)
+![Alt text](https://david-dm.org/agarcian/passwordhash.svg)
 
 
 
