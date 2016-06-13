@@ -9,16 +9,18 @@ A node.js module to hash passwords based on this article: https://crackstation.n
 
 ## Installation
 
-  `npm install @agarcian/passwordhash`
+  `npm install passwordhash`
 
 ## Usage
 
     
-    var passwordhash = require('@agarcian/passwordhash');
+    var passwordhash = require('passwordhash');
     
     var pwd  = 'my password';
     var hash = passwordhash.createHash(pwd, function(err, hash) {
+        
         passwordhash.validatePassword(pwd, hash, function(err, success) {
+            
             console.log('The password hash was validated successfully:' + success ? 'yes' : 'no');
         });
     });
