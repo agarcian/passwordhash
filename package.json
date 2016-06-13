@@ -8,18 +8,17 @@
     "url": "git+https://github.com/agarcian/passwordhash.git"
   },
   "scripts": {
-    "test": "lab -t 90",
-    "test-cov-html": "lab -r html -o coverage.html"
+    "test": "mocha"
   },
   "keywords": [
     "password",
     "hash"
   ],
-  "author": "Andres Garcia <agarcian@ieee.org>",
+  "author": "Andres Garcia <Andres.Garcia@florencehc.com>",
   "license": "ISC",
   "devDependencies": {
-    "code": "^2.0.1",
-    "lab": "^7.2.0"
+    "chai": "*",
+    "mocha": "*"
   },
   "dependencies": {
     "async": "^1.5.0",
