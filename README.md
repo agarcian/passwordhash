@@ -1,6 +1,10 @@
 Password Hash
 =========
 
+https://travis-ci.org/agarcian/passwordhash.svg?branch=master
+
+
+
 A node.js module to hash passwords based on this article: https://crackstation.net/hashing-security.htm
 
 ## Installation
