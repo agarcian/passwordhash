@@ -2,7 +2,7 @@ Password Hash
 =========
 
 <img src=""/>
-![](https://travis-ci.org/agarcian/passwordhash.svg?branch=master)
+!(https://travis-ci.org/agarcian/passwordhash.svg?branch=master)
 
 
 
