@@ -1,5 +1,5 @@
 {
-  "name": "@agarcian/passwordhash",
+  "name": "passwordhash",
   "version": "1.0.2",
   "description": "Salted password hashing with PBKDF2. (Adapted from http://crackstation.net/hashing-security.htm)",
   "main": "index.js",
