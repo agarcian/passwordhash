@@ -1,6 +1,6 @@
 {
   "name": "passwordhash",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Salted password hashing with PBKDF2. (Adapted from http://crackstation.net/hashing-security.htm)",
   "main": "index.js",
   "repository": {
